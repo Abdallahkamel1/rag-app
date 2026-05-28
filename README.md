@@ -21,3 +21,17 @@ $ conda create -n mini-rag python=3.12
 $ conda activate mini-rag
 ```
 
+## installation
+### install required packages
+
+```bash
+$ pip install -r requirements.txt
+```
+### set up environment variables
+
+1. copy the .env.example file to .env file: 
+```bash
+$ cp .env.example .env
+```
+
+

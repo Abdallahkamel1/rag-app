@@ -51,7 +51,9 @@ async def process_endpoint(project_id: str, request: ProcessRequest):
         return JSONResponse(status_code=status.HTTP_400_BAD_REQUEST,
         content={"response_signal": ResponseEnum.FILE_PROCESSING_FAILED.value})
 
-    return file_chunks    
+    return file_chunks
+    
+        
     
 
     

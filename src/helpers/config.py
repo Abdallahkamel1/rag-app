@@ -8,6 +8,9 @@ class Settings(BaseSettings):
     file_allowed_types : list[str]
     file_max_size : int
     default_chunk_size : int
+
+    mongo_url : str
+    mongo_db : str
     
 
     class Config:

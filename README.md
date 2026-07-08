@@ -1,4 +1,4 @@
-#mini-rag
+# mini-rag
 
 This is the minimal implementation of a rag model for question answering over a collection of documents.
 
